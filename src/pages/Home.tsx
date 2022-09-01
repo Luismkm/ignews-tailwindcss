@@ -17,7 +17,7 @@ export function Home () {
           Get acess to all the publications <span className="text-blue-500">for $9,90 month</span>
         </p>
         <a href="#">
-          <p className="w-64 py-4 flex justify-center text-gray-800 font-bold text-xl bg-yellow-800 rounded-full mt-10 hover:opacity-90 transition-colors"
+          <p className="w-64 py-4 text-center text-gray-800 font-bold text-xl bg-yellow-800 rounded-full mt-10 hover:opacity-90 transition-colors"
           >
             Subscribe now
           </p>
