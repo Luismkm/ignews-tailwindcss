@@ -6,8 +6,8 @@ export function Post() {
   return(
     <>
       <Header />
-      <article className="w-[728px] pb-10 mx-auto">
-        <h4 className="font-black text-white text-[3.375rem] leading-[60px] mt-[83px]">Past, Present, and Future of React State Management</h4>
+      <article className="w-[728px] pb-10 mx-auto mt-[83px]">
+        <h4 className="font-black text-white text-[3.375rem] leading-[60px] ">Past, Present, and Future of React State Management</h4>
         <p className="text-gray-300 text-base py-6">12 de março de 2021</p>
         {
           !isAuth 
