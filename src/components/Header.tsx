@@ -1,5 +1,5 @@
-import { FaGithub } from 'react-icons/fa';
 import Logo from '../assets/logo.svg'
+import { SignInButtom } from './SignInButtom'
 
 export function Header(){
   return(
@@ -10,10 +10,7 @@ export function Header(){
             <a href="#" className="hover:font-bold">Home</a>
             <a href="#" className="ml-6">Posts</a>
         </nav>
-          <a href="#" className="flex w-56 px-6 py-3 bg-gray-600 rounded-full text-gray-100 font-bold justify-between hover:opacity-90 transition-colors">
-            <FaGithub className="w-[24px] h-[24px]" color="#eba417" />
-            <span>Sign in with Github</span>
-          </a>
+        <SignInButtom />
       </div>
     </header>
   )
