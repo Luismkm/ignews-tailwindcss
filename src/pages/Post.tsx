@@ -1,7 +1,9 @@
+import { useParams } from "react-router-dom";
 import { Header } from "../components/Header";
 
 export function Post() {
-  const isAuth = false
+  const isAuth = true
+  const { slug } = useParams<{ slug: string }>()
 
   return(
     <>
